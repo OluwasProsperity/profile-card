@@ -1,0 +1,95 @@
+*{
+ margin: 0;
+ box-sizing: border-box;
+ 
+}
+body {
+    width: 100%;
+    font-size: 15pt;
+    font-family: 'kumbh sans';
+    margin-left: 0;
+
+
+}
+#bg-top{
+    background-image: url("images/bg-pattern-top.svg");
+    background-repeat: no-repeat;
+    background-color:  hsl(185, 75%, 39%);
+    background-size: 600px;
+    background-position: -380px -300px;
+    padding-top: 5%;
+    margin-top: 20%;
+}
+ #bg-but {
+  width: 100%;
+  height: 500px;
+  background-image: url("images/bg-pattern-bottom.svg");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: 190px 250px;
+} 
+#container {
+  background-color: white;
+  width: 82.5%;
+  margin: 150px auto;
+  border-radius:20px;
+  text-align: center;
+}
+@media screen and (min-width:900px) {
+  #container{width:35.7%;}
+  #bg-top {background-size: 800px;}
+  #bg-but{
+    background-size: 800px;
+    background-position: 510px 250px;
+  }
+}
+
+#top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#dp {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+#details {
+  margin-top: -40px;
+}
+#lower-card ul {
+  list-style-type: none;
+  display: flex;
+}
+#lower-card li {
+  margin-right: 23%;
+  margin-bottom: 30px;
+
+}
+p {
+  font-size: 23px;
+}
+#city {
+  font-size: 17px;
+  font-weight: 400;
+}
+.flp {
+  font-size: 15px;
+  font-weight: 100  !important;
+}
+.kum {
+  font-weight: 700;
+}
+.vic {
+  font-weight: 700;
+}
+p {
+  text-align: center;
+ }
+
+ a:link {
+      color: darkgreen;
+ }
+ a:visited {
+   color: black;
+ }
